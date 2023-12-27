@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(0,120,172);
+}
+
+.first_header{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 45px;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+  }
+  
+  .first_header {
+    opacity: 0; 
+    animation: fadeIn 2.5s ease-out forwards; 
+  }
+
+
+  .first_osi{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .osi_para{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  .osi_1{
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .eth_img{
+    margin-top: 2%;
+    width: 20%;
+    transition: all 0.5s ease;
+  }
+
+  .eth_img:hover{
+    transform: translateX(-10px);
+    transition: all 0.5s ease;
+  }
+
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .osi_para {
+    opacity: 0; 
+    animation: fade 3.5s ease-out forwards; 
+  }
+
+  .phy_layer_para{
+    font-size: 18px;
+    margin-top: 2%;
+  }
+
+  .phy_layer_para {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1.5s ease-out;
+  }
+  
+  .first_osi:hover .phy_layer_para {
+    transform: translateX(10px);
+    transition: all 0.5s ease-out;
+    opacity: 1;
+  }
+
+
+  .second_osi{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .data_img{
+    width: 20%;
+    margin-top: 2%;
+  }
+
+  .data_layer_para{
+    font-size: 18px;
+    margin-top: 2%;
+  }
+
+  .osi_2{
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  .data_layer_para {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1.5s ease-out;
+    margin-right: 10px;
+  }
+  
+  .second_osi:hover .data_layer_para {
+    transform: translateX(10px);
+    transition: all 0.5s ease-out;
+    opacity: 1;
+  }
+
+
+
+
+  .footer{
+    margin-top: 200px;
+  }
